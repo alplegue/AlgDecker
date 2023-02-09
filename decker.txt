@@ -1,0 +1,104 @@
+Script started on 2023-02-09 10:38:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@aula456: ~[01;32malumno@aula456[00m:[01;34m~[00m$ eq[K[K
+[?2004l[?2004h]0;alumno@aula456: ~[01;32malumno@aula456[00m:[01;34m~[00m$ rm -r .ssh
+[?2004l[?2004h]0;alumno@aula456: ~[01;32malumno@aula456[00m:[01;34m~[00m$ unzip ssh.zip
+[?2004lArchive:  ssh.zip
+   creating: .ssh/
+  inflating: .ssh/id_rsa             
+  inflating: .ssh/known_hosts        
+  inflating: .ssh/alplegue.pub       
+[?2004h]0;alumno@aula456: ~[01;32malumno@aula456[00m:[01;34m~[00m$ git clone ^[[200~git@github.com:alplegue/AlgDecker.git~[K [1P[1P[1P[1P[2P[1P[1P[1@ 
+[?2004lClonando en 'AlgDecker'...
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes^[[3~      s
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  33% (1/3)Recibiendo objetos:  66% (2/3)Recibiendo objetos: 100% (3/3)Recibiendo objetos: 100% (3/3), listo.
+[?2004h]0;alumno@aula456: ~[01;32malumno@aula456[00m:[01;34m~[00m$ cd AlgDce[K[Kecker
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ gti[K[Kit add REA[KDME[K[K[KADME.md
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git config --global "[K[K[K[K[K[K[K[K[K[K--global user.name "alpelgue[K[K[K[K[Klegue@ucm.es"
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git puu[Kll
+[?2004lYa está actualizado.
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ 01[K[Kgit add 01.py
+[?2004lfatal: ruta especificada '01.py' no concordó con ningún archivo
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ d_[K[Kgedir[Kt d_01.py
+[?2004l
+^[[A    [?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ 
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ gedit 02[K[K[K[K[K[K[K[Kgit add d_012[K.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git pull
+[?2004lYa está actualizado.
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git push
+[?2004lEverything up-to-date
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ [K]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ [K]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	[32mnuevos archivos: d_01.py[m
+
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ cir com[K[K[K[K[K[K[Kgit commit -m 'd1'
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula456.(none)')
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "you@example.com"
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ [7mgit config --global user.name[27mgit config --global user.name "Alv[K[K[Kæ[KÆ[KÁlvaro"
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git config --global user.name "Álvaro"email "you@example.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'd1'[K
+[?2004l[main d7e0187] d1
+ 1 file changed, 41 insertions(+)
+ create mode 100644 d_01.py
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git push
+[?2004lEnumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 739 bytes | 739.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+To github.com:alplegue/AlgDecker.git
+   671c793..d7e0187  main -> main
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git ad [Kd 02[K[Kd[K[K[K[K[K[K[K[K[Kgedit 02[K[Kd_02.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ gedit d_02.py^[2.py[C2.py[1P2.py32.py[1P2.py[1P2.py[2P2.py[1P2.py[1P.py0.py3.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ gedit d_04.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git add d_02.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ g[Kgit add d_02.py[C[1P.py3.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git add d_03.py[1P.py4.py
+[?2004l[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git pull
+[?2004lgiYa está actualizado.
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git push
+[?2004lEverything up-to-date
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git commit -m
+[?2004lerror: switch `m' requiere un valor
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git commit -m "d2"
+[?2004l[main 21f67e2] d2
+ 3 files changed, 163 insertions(+)
+ create mode 100644 d_02.py
+ create mode 100644 d_03.py
+ create mode 100644 d_04.py
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ git pull[K[Ksh
+[?2004lEnumerando objetos: 6, listo.
+Contando objetos:  16% (1/6)Contando objetos:  33% (2/6)Contando objetos:  50% (3/6)Contando objetos:  66% (4/6)Contando objetos:  83% (5/6)Contando objetos: 100% (6/6)Contando objetos: 100% (6/6), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos:  20% (1/5)Comprimiendo objetos:  40% (2/5)Comprimiendo objetos:  60% (3/5)Comprimiendo objetos:  80% (4/5)Comprimiendo objetos: 100% (5/5)Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos:  20% (1/5)Escribiendo objetos:  40% (2/5)Escribiendo objetos:  80% (4/5)Escribiendo objetos: 100% (5/5)Escribiendo objetos: 100% (5/5), 1.18 KiB | 1.18 MiB/s, listo.
+Total 5 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:alplegue/AlgDecker.git
+   d7e0187..21f67e2  main -> main
+[?2004h]0;alumno@aula456: ~/AlgDecker[01;32malumno@aula456[00m:[01;34m~/AlgDecker[00m$ [?2004l
+exit
+
+Script done on 2023-02-09 10:51:47+01:00 [COMMAND_EXIT_CODE="0"]
